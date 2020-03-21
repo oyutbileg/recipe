@@ -1,7 +1,9 @@
-const arr = [23, 55, 33, 25, 64];
-let myFunc = a => {
-  console.log("too : " + a);
-};
-const arr2 = [...arr, 44, 1223];
+import qeury from "./model/search";
+import { add as niilber } from "./view/searchView";
+import p from "lodash";
+import { multiply as m } from "./view/searchView";
 
-myFunc(arr2[1]);
+console.log("Hailt ni : " + qeury);
+console.log("hoyor toonii niilber " + niilber(5, 6));
+
+console.log("hoyor toonii niilber " + m(5, 6));
